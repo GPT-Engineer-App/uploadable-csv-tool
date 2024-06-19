@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, VStack, Text, Button, Table, Thead, Tbody, Tr, Th, Td, Input, IconButton } from "@chakra-ui/react";
+import { Container, VStack, Text, Button, Table, Thead, Tbody, Tr, Th, Td, Input, IconButton, Image } from "@chakra-ui/react";
 import { FaTrash, FaDownload, FaUpload, FaPlus } from "react-icons/fa";
 import Papa from "papaparse";
 import { CSVLink } from "react-csv";
@@ -42,7 +42,8 @@ const Index = () => {
     <Container centerContent maxW="container.xl" py={10}>
       <VStack spacing={4} width="100%">
         <Text fontSize="2xl">CSV Editor</Text>
-        <Button leftIcon={<FaUpload />} as="label">
+        <Image src="https://via.placeholder.com/150" alt="Placeholder Image" boxSize="150px" />
+        <Button leftIcon={<FaUpload />} as="label" mt={4}>
           Upload CSV
           <input type="file" accept=".csv" hidden onChange={handleFileUpload} />
         </Button>
