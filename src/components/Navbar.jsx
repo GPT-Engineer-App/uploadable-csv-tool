@@ -20,6 +20,11 @@ function Navbar() {
             Shop
           </Button>
         </Link>
+        <Link to="/quotes">
+          <Button colorScheme="teal" variant="ghost">
+            Quotes
+          </Button>
+        </Link>
       </Flex>
     </Box>
   );
