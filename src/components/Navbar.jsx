@@ -15,6 +15,11 @@ function Navbar() {
             About
           </Button>
         </Link>
+        <Link to="/shop">
+          <Button colorScheme="teal" variant="ghost">
+            Shop
+          </Button>
+        </Link>
       </Flex>
     </Box>
   );
