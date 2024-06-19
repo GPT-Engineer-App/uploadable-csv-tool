@@ -4,6 +4,7 @@ import Footer from "./components/Footer.jsx";
 import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
+import Maps from "./pages/Maps.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/maps" element={<Maps />} />
       </Routes>
       <Footer />
     </Router>
