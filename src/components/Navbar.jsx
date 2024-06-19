@@ -25,6 +25,11 @@ function Navbar() {
             Quotes
           </Button>
         </Link>
+        <Link to="/pricing">
+          <Button colorScheme="teal" variant="ghost">
+            Pricing
+          </Button>
+        </Link>
         <Link to="/zebras">
           <Button colorScheme="teal" variant="ghost">
             Zebras

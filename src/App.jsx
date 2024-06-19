@@ -5,6 +5,7 @@ import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
 import Maps from "./pages/Maps.jsx";
+import Pricing from "./pages/Pricing.jsx";
 import Zebras from "./pages/Zebras.jsx";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/maps" element={<Maps />} />
         <Route path="/zebras" element={<Zebras />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
       <Footer />
     </Router>
