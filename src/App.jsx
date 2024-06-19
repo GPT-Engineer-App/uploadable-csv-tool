@@ -5,6 +5,7 @@ import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 import Shop from "./pages/Shop.jsx";
 import Maps from "./pages/Maps.jsx";
+import Zebras from "./pages/Zebras.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/maps" element={<Maps />} />
+        <Route path="/zebras" element={<Zebras />} />
       </Routes>
       <Footer />
     </Router>
